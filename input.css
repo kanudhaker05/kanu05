@@ -7,13 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito:wght@1000&family=Poppins:ital,wght@0,300;0,400;0,500;1,500;1,600&display=swap');
 
   .container{
-    width: 100%;
+    width: 70%;
     padding: 0 15px;
     margin:0 auto;
   
   }
 
-@media (min-width:576px){
+/* @media (min-width:576px){
     .container{
         max-width:540px;
     }
@@ -35,3 +35,194 @@
       max-width: 1152px;
     }
   }
+ */
+
+  footer{
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 50px 0 10px ;
+    border-top-left-radius:125px;
+    font-size:20px;
+    line-height: 20px;
+  }
+
+  .row{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+  }
+
+  .row p{
+    line-height: 25px;
+  }
+
+  .col{
+     flex-basis: 25%;
+     padding: 10px;
+
+  }
+
+  /* .col:nth-child(2),.col:nth-child(3){
+    flex-basis:15%;
+  } */
+
+  .col p{
+    margin-bottom: 6px;
+  }
+
+  .logo{
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .ul-li li{
+        margin-bottom: 12px;
+  }
+
+  form{
+    width: 90%;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+
+  form .fa-regular{
+    margin-top: 6px;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  form input{
+    width: 100%;
+    background-color: transparent;
+    color: #ccc;
+    border: 0;
+    outline:none
+
+  }
+
+  form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+
+  form button fa-solid{
+    font-size: 16px ;
+    color: #ccc;
+
+  }
+
+  .social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+
+
+
+  }
+
+  .fa-solid{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+
+hr{
+  width: 75%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.copyright{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -8px;
+
+}
+
+.underline{
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+.underline span{
+  width: 20px;
+  height: 100%;
+  background:#fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+
+}
+
+@keyframes moving{
+  0%{
+    left: -20px;
+  }
+  100%{
+    left:100% ;
+  }
+}
+
+
+@media (max-width: 700px){
+  footer{
+    bottom: unset;
+  }
+  .col{
+    flex-basis: 100%;
+   
+
+ }
+
+ .col:nth-child(2),.col:nth-child(3){
+   flex-basis:100%;
+ }
+
+ /* .section_1{
+  background-size: auto;
+ }
+
+ .about-1{
+  flex-basis: 100%;
+ } */
+
+}
+
+
+.hero-social .fa-brands {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+
+}
