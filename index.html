@@ -9,17 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:wght@200&family=Nunito:wght@200&family=Poppins:ital,wght@0,300;0,400;0,500;1,500;1,600&family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+<script src="https://kit.fontawesome.com/fec363680f.js"></script>
 
 </head>
-<body class="bg-black h-[3000px]" >
+<body >
 
   <!-- navbar -->
    
 <div id="home" class="bg-cover bg-center" style="background-image: url('oghero1.jpg');">
-        <nav class="container w-full h-14 flex justify-between  ">
-            <div style="  font-family: 'Archivo Black';" class="hover:text-blue-300 cursor-pointer text-2xl text-white font-bold mt-3"><a href="#home">KANU DHAKER</a></div>
-            <ul style="font-family: 'Poppins', sans-serif;" class="md:flex font-semibold hidden text-white mt-4">
+        <nav class="container w-full h-14 flex justify-between pt-20 ">
+            <div style="  font-family: 'Archivo Black';" class="hover:text-blue-300 cursor-pointer text-2xl text-white font-bold mt-5"><a href="#home">KANU DHAKER</a></div>
+            <ul style="font-family: 'Poppins', sans-serif;" class="md:flex font-semibold hidden text-white mt-6">
                 
             <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9"><a href="#home">Home</a></li>
             <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9 "><a href="#about">About</a></li>    
@@ -27,8 +27,8 @@
                
                 <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9">Education</li>
                 <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9">Work</li>
-                <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9">Certificate</li>
-                <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9">Contact</li>
+                <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9">Certificates</li>
+                <li class="mx-[10px] hover:underline  cursor-pointer xl:ml-9"><a href="#contact">Contacts</a></li>
             
                 
             </ul>
@@ -45,7 +45,7 @@
             
           <div  class=" container h-screen flex items-center" >
            
-          <div class="mt-[-200px]  text-white">
+          <div class="mt-[-195px]  text-white">
             <h1 class="mb-3 uppercase text-3xl text-bold text-blue-200">  /$whoami?</h1>
             <h1 style="  font-family: 'Archivo Black';" class="mb-2 text-6xl text-bold">I'm <span class="text-yellow-400">Kanu Dhaker</span></h1>
             <h1 style="  font-family: 'Archivo Black';" class="text-xl">B.Tech Information Technology Student</h1>
@@ -54,13 +54,14 @@
                 <a class="font-bold text-xl" href="#about">About me</a>
                 <a href="#about"> <img class="ml-2 mt-1 w-5 h-5" src="down-arrow.png" alt=""></a>
               </div>
-<!--               <div class="mt-7 flex flex-wrap">
-                <a href=""><img class=" w-10  mr-3 " src="twitter.png" alt=""></a>
-                <a href=""><img class="w-10 mr-3 " src="linkedin.png" alt=""></a>
-                <a  href=""><img class="w-10 mr-3 " src="github-logo.png" alt=""></a>
-                <a href=""><img class="w-10 mr-3 " src="whatsapp.png" alt=""></a>
-                <a  href=""><img class="w-10 mr-3 " src="instagram.png" alt=""></a>
-              </div> -->
+              <div class="mt-7 flex flex-wrap hero-social">
+                <a href=" ">  <i class="fa-brands fa-square-x-twitter"></i>  </a>
+                <a href=" "> <i class="fa-brands fa-square-instagram"></i> </a>
+                <a href=" "> <i class="fa-brands fa-linkedin"></i> </a>
+                <a href=" "> <i class="fa-brands fa-square-github"></i> </a>
+                <a href=" "> <i class="fa-brands fa-square-whatsapp"></i> </a>
+                
+              </div>
             </div>
           </div>
  
@@ -73,10 +74,10 @@
 
    <!-- about page -->
 
-<section id="about" class="h-screen" style="background-image: url(aboutbg.png);">
+<section id="about" class=" section_1 h-screen" style="background-image: url(aboutbg.png);">
   <div style="padding-top: 250px;" class="flex container">
 
-    <div class=" items-center w-[500px]">
+    <div class=" about-1 items-center w-[500px]">
       <p   style="font-family: 'Hedvig Letters Serif', serif;"class="mb-2 text-gray-400">A LITTLE BIT </p>
       <h1 style="font-family: 'Hedvig Letters Serif', serif;" class="text-white mb-2 text-5xl font-bold " >About Me</h1>
       <p style="font-family: 'Montserrat', sans-serif;" class=" text-yellow-600 text-sm mb-2">CYBER SECURITY / WEB DEVELOPMENT / PROBLEM SOLVING </p>
@@ -92,7 +93,61 @@
 </section>
     
  
+<!-- my website footer -->
 
+<footer id="contact">
+  <div class="row">
+      <div class="col">
+        <img class="logo" src="logoimage.png" alt="">
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials!</p>
+        
+         
+      </div>
+      <div class="col">
+        <h3 class="w-fit mb-10 relative font-bold">Contact Info <div class="underline"><span></span></div></h3>
+        <p><i class="fa-solid fa-phone"></i>+91-XXX-XXX-XXXX</p>
+        <p class="mt-4"><i class="fa-solid fa-envelope"></i>kanudhaker94@gmail.com</p>
+        <p class="mt-4"><i class="fa-solid fa-location-dot"></i>Jaipur, Raj 302033</p>
+
+      </div>
+
+      <div class="col">
+        <h1 class="w-fit mb-10 relative font-bold">Quick Links <div class="underline"><span></span></div> </h1>
+        <ul class=" ul-li mb-3">
+          <li><a href="#home"> <i class="fa-solid fa-circle-arrow-right"></i> Home</a></li>
+          <li><a href="#about"> <i class="fa-solid fa-circle-arrow-right"></i> About</a></li>
+          <li><a href=""><i class="fa-solid fa-circle-arrow-right"></i> Skills</a></li>
+          <li><a href=""><i class="fa-solid fa-circle-arrow-right"></i> Education</a></li>
+          <li><a href=""><i class="fa-solid fa-circle-arrow-right"></i> work</a></li>
+          <li><a href=""><i class="fa-solid fa-circle-arrow-right"></i> Certificates</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-circle-arrow-right"></i> Contacts</a></li>
+
+        </ul>
+      </div>
+      <div class="col">
+        <h1 class="w-fit mb-10 relative font-bold">Feedback <div class="underline"><span></span></div></h1>
+        <form>
+          <i class="fa-regular fa-message"></i>
+          <input type="text" placeholder="Drop Your Feedback . . . ." required>
+          <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+
+      <div class="social-icons">
+        <a href=" ">  <i class="fa-brands fa-square-x-twitter"></i>  </a>
+        <a href=" "> <i class="fa-brands fa-square-instagram"></i> </a>
+        <a href=" "> <i class="fa-brands fa-linkedin"></i> </a>
+        <a href=" "> <i class="fa-brands fa-square-github"></i> </a>
+        <a href=" "> <i class="fa-brands fa-square-whatsapp"></i> </a>
+        
+    
+      </div>
+        
+
+      </div>
+  </div>
+  <hr>
+  <p class="copyright">Desigend By <span class="text-yellow-500">Kanu Dhaker</span></p>
+</footer>
 
 
 </body>
